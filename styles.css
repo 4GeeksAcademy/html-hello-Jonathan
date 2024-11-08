@@ -1,0 +1,82 @@
+*{ 
+    
+
+}
+body { 
+    background-color: black; 
+   
+} 
+.post{ 
+    background-color: white; 
+    
+} 
+
+.post-header{ 
+    background-color: white;
+  
+}  
+
+img{ 
+   width: 100%; 
+   height: 20%;
+}
+
+.post-body{ 
+    background-color: white;
+    
+} 
+.container { 
+width: 600px; 
+margin:auto;
+} 
+
+/*intento*/
+.post-header {
+  display: flex; /* Usamos flexbox para alinear los elementos */
+  flex-direction: column; /* Colocamos los elementos en una columna */
+  
+}
+.post-header i{ 
+    margin-right: 10px;
+}
+
+.post-header p {
+  margin: 0; /* Eliminamos los márgenes predeterminados de los párrafos */
+
+} 
+
+/*iconos abajo*/
+.heart{ 
+    height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
+} 
+.comment{ 
+    height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
+}
+.plane{ 
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
+} 
+span.book{ 
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 8px 15px 8px 0px;
+}
+
+span.punto {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+} 
