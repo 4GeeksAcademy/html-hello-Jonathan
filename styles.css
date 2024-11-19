@@ -1,82 +1,103 @@
-*{ 
-    
+* {}
+
+body {
+    background-color: black;
 
 }
-body { 
-    background-color: black; 
-   
-} 
-.post{ 
-    background-color: white; 
-    
-} 
 
-.post-header{ 
+.post {
     background-color: white;
-  
-}  
 
-img{ 
-   width: 100%; 
-   height: 20%;
 }
 
-.post-body{ 
+.post-header {
     background-color: white;
-    
-} 
-.container { 
-width: 600px; 
-margin:auto;
-} 
+
+}
+
+img {
+    width: 100%;
+    height: 20%;
+}
+
+.post-body {
+    background-color: white;
+
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
 
 /*intento*/
 .post-header {
-  display: flex; /* Usamos flexbox para alinear los elementos */
-  flex-direction: column; /* Colocamos los elementos en una columna */
-  
-}
-.post-header i{ 
-    margin-right: 10px;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
 }
 
-.post-header p {
-  margin: 0; /* Eliminamos los márgenes predeterminados de los párrafos */
+.post-header-left {
+    display: flex;
+    flex-direction: row;
 
-} 
+}
+
+.html-icon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-right: 5px;
+    padding-left: 2px;
+}
+
+.tres-puntos {
+    padding-top: 15px;
+}
 
 /*iconos abajo*/
-.heart{ 
-    height: 80%;
-    width: 4%;
-    align-self: center;
-    font-size: 1.5em;
-    margin: 4px 4px 0px 8px;
-} 
-.comment{ 
+.heart {
     height: 80%;
     width: 4%;
     align-self: center;
     font-size: 1.5em;
     margin: 4px 4px 0px 8px;
 }
-.plane{ 
+
+.comment {
+    height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
+}
+
+.plane {
     height: 80%;
     width: 80%;
     align-self: center;
     font-size: 1.5em;
     margin: 4px 4px 0px 8px;
-} 
-span.book{ 
+}
+
+span.book {
     height: 80%;
     width: 80%;
     align-self: center;
     font-size: 1.5em;
     margin: 8px 15px 8px 0px;
+    margin-right: 60%;
+    padding-right: 8px;
 }
 
 span.punto {
     margin: 8px 15px 8px 0px;
     align-self: center;
     font-size: 1.5em;
-} 
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
